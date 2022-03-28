@@ -16,6 +16,7 @@ class TodoList {
       if (currentItem.text.length > 20) {
         currentItem.text = currentItem.text.substring(0, 20) + "...";
       }
+      return currentItem;
     });
   }
 
